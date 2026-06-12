@@ -5,10 +5,10 @@
 
 ### Hero [ hero-image ]
 hero:
-  image: "assets/img/profile.png"
-  image_alt: "이태원"
+  image: "assets/images/profile.png."
+  image_alt: "이경철"
   before_title: "환영합니다, <b>제 이름은</b>"
-  title: "<b>Taewon</b> Lee"
+  title: "<b>KyoungCheol</b> Lee"
   after_title: "I am <strong>Cyber Security Professional</strong>"
   description: "폴리텍 대학 강서캠퍼스 사이버 보안과 2학년 입니다."
   button1:
@@ -32,33 +32,33 @@ services:
   bg_title: "Services"
 
   items:
-    - title: "Web Design &amp; Logo"
-      subtitle: "Web Development"
-      text: "Web designers craft the overall vision &amp; plan for a website layout. Professional logo development: Business, Company, or Personal."
+    - title: "Security Research & Pentesting"
+      subtitle: "VULNERABILITY ANALYSIS"
+      text: "MS17-010(EternalBlue) 취약점 분석 및 공격 시나리오 연구를 통해 시스템 보안 약점을 진단하고 대응 방안을 설계합니다."
       button_label: "See Pricing"
       button_link: "#pricing-section"
 
-    - title: "iOS &amp; Android"
-      subtitle: "Apps Development"
-      text: "Design Software applications to run on mobile devices. Modern and mobile-ready application that will help you reach all of your marketing."
+    - title: "Lateral Movement Inhibition"
+      subtitle: "RANSOMWARE DEFENSE"
+      text: "랜섬웨어의 측면 이동 차단 및 신속한 데이터 복구 시스템(L.I.R.S)을 개발하여 침해 사고 피해를 최소화하는 솔루션을 연구합니다."
       button_label: "See Pricing"
       button_link: "#pricing-section"
 
-    - title: "Unity &amp; Unreal Engine"
-      subtitle: "Game Development"
-      text: "Creating games &amp; describes the design, development and release of a game. Developing unique mobile android and ios games."
+    - title: "Infrastructure & Firewall Setup"
+      subtitle: "NETWORK SECURITY"
+      text: "OPNsense, Iptables 등을 활용한 네트워크 방화벽 구축 및 효율적인 트래픽 관리를 통해 인프라 수준의 방어 체계를 구축합니다."
       button_label: "See Pricing"
       button_link: "#pricing-section"
 
-    - title: "Google Ads"
-      subtitle: "Advertising"
-      text: "Advertising services include: Google search result pages, gmails, YouTube and other websites participated in Google Ads program."
+    - title: "Linux & Server Management"
+      subtitle: "SYSTEM ADMINISTRATION"
+      text: "리눅스 마스터 및 네트워크 관리사 역량을 바탕으로 보안이 강화된 서버 환경을 운영하고 실시간 모니터링을 수행합니다."
       button_label: "See Pricing"
       button_link: "#pricing-section"
 
-    - title: "Sound Track"
-      subtitle: "Music Writing"
-      text: "Music copying, writing, creating, transcription and composition services."
+    - title: "Security Scripting & Automation"
+      subtitle: "DEVELOPMENT"
+      text: "Python과 Bash 쉘 스크립트를 활용하여 반복적인 보안 점검 업무를 자동화하고 효율적인 로그 분석 도구를 구현합니다."
       button_label: "See Pricing"
       button_link: "#pricing-section"
 
@@ -70,33 +70,33 @@ skills:
 
   column1:
     items:
-      - label: "PHP" #0-10 progress in dots
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      - label: "LINUX" #0-10 progress in dots
+        text: "Ubuntu 및 CentOS 환경에서 서버 가동 및 운영 경험이 있으며, 시스템 권한 관리 및 로그 분석을 통한 트러블슈팅에 능숙합니다."
         value: "85" #0-100 progress in %
 
       - label: "Python" #0-10 progress in dots
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-        value: "75" #0-100 progress in %
+        text: "보안 취약점 진단 및 데이터 분석을 위한 기초적인 자동화 스크립트 작성이 가능하며, 지속적으로 라이브러리 활용 능력을 키우고 있습니다."
+        value: "25" #0-100 progress in %
 
   column2:
     items:
       - label: "JavaScript" #0-10 progress in dots
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-        value: "75" #0-100 progress in %
+        text: "클라이언트 사이드 스크립트 분석을 통한 웹 취약점 진단 및 보안 위협 방어 기법 이해"
+        value: "20" #0-100 progress in %
 
-      - label: "React" #0-10 progress in dots
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      - label: "Shell Script" #0-10 progress in dots
+        text: "BASH 쉘 스크립트를 활용하여 반복적인 시스템 관리 업무를 자동화하고, 실시간 로그 모니터링 도구를 제작할 수 있습니다."
         value: "70" #0-100 progress in %
 
   column3:
     items:
-      - label: "WordPress" #0-10 progress in dots
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-        value: "90" #0-100 progress in %
+      - label: "Iptables" #0-10 progress in dots
+        text: "서버 보안을 위한 패킷 필터링 정책을 수립하고, 비정상 트래픽 차단 및 방화벽 설정(OPNsense 등 연동) 경험이 있습니다."
+        value: "60" #0-100 progress in %
 
-      - label: "Adobe XD" #0-10 progress in dots
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-        value: "80" #0-100 progress in %
+      - label: "Packet Tracer" #0-10 progress in dots
+        text: "Cisco 솔루션을 활용한 네트워크 토폴로지 설계 및 보안 정책 시뮬레이션 가능"
+        value: "60" #0-100 progress in %
 
 ### Resume [ resume ]
 resume:
